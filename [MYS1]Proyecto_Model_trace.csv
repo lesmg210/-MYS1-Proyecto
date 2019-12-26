@@ -1,0 +1,3 @@
+Time(Hours);EntityID;ObjectName;ProcessID;StepName;Action
+0;TransferNode18;Model;1.procesoSeRetiraSinVotar;[SetNode] SetNode2;Reference type mismatch. The object or element 'TransferNode18' returned by property 'SetNode.EntityType' is not of the expected type 'Entity'.
+
