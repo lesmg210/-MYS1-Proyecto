@@ -1,3 +1,4 @@
 Time(Hours);EntityID;ObjectName;ProcessID;StepName;Action
-0;TransferNode18;Model;1.procesoSeRetiraSinVotar;[SetNode] SetNode2;Reference type mismatch. The object or element 'TransferNode18' returned by property 'SetNode.EntityType' is not of the expected type 'Entity'.
+0.0758354212514385;DefaultEntity.211;Model;12.procesoContarVotosPresidente;[Decide] Decide1;Unable to get value of property 'Decide.ConditionOrProbability'.
+0.0758354212514385;DefaultEntity.211;Model;12.procesoContarVotosPresidente;[Decide] Decide1;Invalid operation because types of operands must match. Both must be numeric or string.
 
