@@ -33,3 +33,5 @@ ejemplo:
 pUNE -> presidente y viceprecidente UNE
 
 DListaUNE -> Diputados del listado nacional une
+
+DDistraUNE -> Diputados distratales Une
