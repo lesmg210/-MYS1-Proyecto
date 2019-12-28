@@ -1,0 +1,33 @@
+**
+presidente
+vicepresidente
+diputados por listado nacional
+diputados por distrito
+diputados al parlamento
+consejo municipal
+
+0.46 hombres 1
+0.54 mujeres 0
+
+
+hora de eleccion 8:00 - 18:00
+se dejan voar a los que esta en la cola
+
+6 juntas receptoras de votos
+
+
+triangular 315 227 80
+
+cada votante se mueve a 18k
+
+jrv -> juntas receptoras de votos
+
+
+
+Presidente y viceprecidente
+papeleta 1
+22 partidos
+
+**** nombres variables
+ejemplo:
+pUNE -> presidente y viceprecidente UNE
