@@ -1,3 +1,5 @@
 Time(Hours);EntityID;ObjectName;ProcessID;StepName;Action
-0;TransferNode18;Model;1.procesoSeRetiraSinVotar;[SetNode] SetNode2;Reference type mismatch. The object or element 'TransferNode18' returned by property 'SetNode.EntityType' is not of the expected type 'Entity'.
+0.0567678136119787;DefaultEntity.214;Verificador2_M1;15.PerformProcessingTask;[Consume] TaskMaterials;Unable to resolve inventory data for material 'mesa1P2' at site object 'Verificador2_M1'.
+0.0567678136119787;DefaultEntity.214;Verificador2_M1;15.PerformProcessingTask;[Consume] TaskMaterials;The Location Based Inventory property of the material is set to True but no inventory element for the site was found.
+0.0567678136119787;DefaultEntity.214;Verificador2_M1;15.PerformProcessingTask;[Consume] TaskMaterials;Verify that a site object has been specified and that an inventory element for the required Material Name-Site Object Name pair has been added to the model.
 
