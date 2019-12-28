@@ -31,3 +31,5 @@ papeleta 1
 **** nombres variables
 ejemplo:
 pUNE -> presidente y viceprecidente UNE
+
+DListaUNE -> Diputados del listado nacional une
