@@ -32,6 +32,10 @@ papeleta 1
 ejemplo:
 pUNE -> presidente y viceprecidente UNE
 
-DListaUNE -> Diputados del listado nacional une
+dListaUNE -> Diputados del listado nacional une
 
-DDistraUNE -> Diputados distratales Une
+dDistraUNE -> Diputados distratales Une
+
+cUNE ->corporacion municipal UNE
+
+dParUNE -> Diputados del parlamento UNE
