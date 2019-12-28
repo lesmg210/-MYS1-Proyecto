@@ -39,3 +39,7 @@ dDistraUNE -> Diputados distratales Une
 cUNE ->corporacion municipal UNE
 
 dParUNE -> Diputados del parlamento UNE
+
+**** cadenas votos por presidente
+
+("VAMOS",0.1396,"TODOS",0.1709,"UNE",0.4262,"UNIONISTA",0.4405,"CONVERGENCIA",0.4491,"CREO",0.4866,"FCN",0.5278,"WINAQ",0.5800,"PPT",0.5854,"UNIDOS",0.5915,"EG",0.6030,"URNG",0.6246,"VICTORI",0.6500,"PHG",0.7622,"VIVA",0.8212,"AVANZA",0.8260,"LIBRE",0.8355,"PAN",0.8963,"MLP",1.0000)
