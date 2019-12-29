@@ -30,3 +30,314 @@ DIPUTADOS PARLAMENTO
 COORPORACION MUNICIPAL
 "UCN",0.0086,"UNIONISTA",0.3915,"PHG",0.4093,"CONVERGENCIA",0.4131,"VICTORIA",0.4175,"CREO",0.7661,"PPT",0.7739,"EG",0.7909,"TODOS",0.7979,"FCN",0.8026,"VIVA",0.8269,"UNE",0.8429,"SEMILLA",0.9397,"VAMOS",0.9615,"FUERZA",0.9813,"BIEN",0.9848,"LIBRE",0.9964,"PC",1
 
+
+
+
+
+Presidentes y Viceprecidente:
+-----VAMOS---------------------------------------
+Finaciamiento:{Math.If(pVAMOS/ (pVAMOS+pTODOS+pUNE+pUNIONISTA+pCONVERGENCIA+pCREO+pFCN+pWINAQ+pPPT+pUNIDOS+pEG+pURNG+pVICTORIA+pPHG+pVIVA+pAVANZA+pLIBRE+pPAN+pMLP)>0.05,pVamos*2,0)}
+Porcentaje: {pVAMOS/ (pVAMOS+pTODOS+pUNE+pUNIONISTA+pCONVERGENCIA+pCREO+pFCN+pWINAQ+pPPT+pUNIDOS+pEG+pURNG+pVICTORIA+pPHG+pVIVA+pAVANZA+pLIBRE+pPAN+pMLP)}
+-----TODOS---------------------------------------------
+Finaciamiento:{Math.If(pTODOS/ (pVAMOS+pTODOS+pUNE+pUNIONISTA+pCONVERGENCIA+pCREO+pFCN+pWINAQ+pPPT+pUNIDOS+pEG+pURNG+pVICTORIA+pPHG+pVIVA+pAVANZA+pLIBRE+pPAN+pMLP)>0.05,pTODOS*2,0)}
+Porcentaje: {pTODOS/ (pVAMOS+pTODOS+pUNE+pUNIONISTA+pCONVERGENCIA+pCREO+pFCN+pWINAQ+pPPT+pUNIDOS+pEG+pURNG+pVICTORIA+pPHG+pVIVA+pAVANZA+pLIBRE+pPAN+pMLP)}
+-----UNE:---------------------------------------------
+Financiamiento:{Math.If(pUNE/ (pVAMOS+pTODOS+pUNE+pUNIONISTA+pCONVERGENCIA+pCREO+pFCN+pWINAQ+pPPT+pUNIDOS+pEG+pURNG+pVICTORIA+pPHG+pVIVA+pAVANZA+pLIBRE+pPAN+pMLP)>0.05,pUNE*2,0)}
+Porcentaje: {pUNE/ (pVAMOS+pTODOS+pUNE+pUNIONISTA+pCONVERGENCIA+pCREO+pFCN+pWINAQ+pPPT+pUNIDOS+pEG+pURNG+pVICTORIA+pPHG+pVIVA+pAVANZA+pLIBRE+pPAN+pMLP)}
+-----UNIONISTA---------------------------------------------
+Financiamiento: {Math.If(pUNIONISTA/ (pVAMOS+pTODOS+pUNE+pUNIONISTA+pCONVERGENCIA+pCREO+pFCN+pWINAQ+pPPT+pUNIDOS+pEG+pURNG+pVICTORIA+pPHG+pVIVA+pAVANZA+pLIBRE+pPAN+pMLP)>0.05,pUNIONISTA*2,0)}
+Porcentaje: {pUNIONISTA/ (pVAMOS+pTODOS+pUNE+pUNIONISTA+pCONVERGENCIA+pCREO+pFCN+pWINAQ+pPPT+pUNIDOS+pEG+pURNG+pVICTORIA+pPHG+pVIVA+pAVANZA+pLIBRE+pPAN+pMLP)}
+-----CONVERGENCIA:---------------------------------------------
+Financiamiento: {Math.If(pCONVERGENCIA/ (pVAMOS+pTODOS+pUNE+pUNIONISTA+pCONVERGENCIA+pCREO+pFCN+pWINAQ+pPPT+pUNIDOS+pEG+pURNG+pVICTORIA+pPHG+pVIVA+pAVANZA+pLIBRE+pPAN+pMLP)>0.05,pCONVERGENCIA*2,0)}
+Porcentaje: {pCONVERGENCIA/ (pVAMOS+pTODOS+pUNE+pUNIONISTA+pCONVERGENCIA+pCREO+pFCN+pWINAQ+pPPT+pUNIDOS+pEG+pURNG+pVICTORIA+pPHG+pVIVA+pAVANZA+pLIBRE+pPAN+pMLP)}
+-----CREO:---------------------------------------------
+Financiamiento: {Math.If(pCREO/ (pVAMOS+pTODOS+pUNE+pUNIONISTA+pCONVERGENCIA+pCREO+pFCN+pWINAQ+pPPT+pUNIDOS+pEG+pURNG+pVICTORIA+pPHG+pVIVA+pAVANZA+pLIBRE+pPAN+pMLP)>0.05,pCREO*2,0)}
+Porcentaje: {pCREO/ (pVAMOS+pTODOS+pUNE+pUNIONISTA+pCONVERGENCIA+pCREO+pFCN+pWINAQ+pPPT+pUNIDOS+pEG+pURNG+pVICTORIA+pPHG+pVIVA+pAVANZA+pLIBRE+pPAN+pMLP)}
+-----FCN:---------------------------------------------
+Financiamiento: {Math.If(pFCN/ (pVAMOS+pTODOS+pUNE+pUNIONISTA+pCONVERGENCIA+pCREO+pFCN+pWINAQ+pPPT+pUNIDOS+pEG+pURNG+pVICTORIA+pPHG+pVIVA+pAVANZA+pLIBRE+pPAN+pMLP)>0.05,pFCN*2,0)}
+Porcentaje: {pFCN/ (pVAMOS+pTODOS+pUNE+pUNIONISTA+pCONVERGENCIA+pCREO+pFCN+pWINAQ+pPPT+pUNIDOS+pEG+pURNG+pVICTORIA+pPHG+pVIVA+pAVANZA+pLIBRE+pPAN+pMLP)}
+-----WINAQ---------------------------------------------
+Financiamiento: {Math.If(pWINAQ/ (pVAMOS+pTODOS+pUNE+pUNIONISTA+pCONVERGENCIA+pCREO+pFCN+pWINAQ+pPPT+pUNIDOS+pEG+pURNG+pVICTORIA+pPHG+pVIVA+pAVANZA+pLIBRE+pPAN+pMLP)>0.05,pWINAQ*2,0)}
+Porcentaje: {pWINAQ/ (pVAMOS+pTODOS+pUNE+pUNIONISTA+pCONVERGENCIA+pCREO+pFCN+pWINAQ+pPPT+pUNIDOS+pEG+pURNG+pVICTORIA+pPHG+pVIVA+pAVANZA+pLIBRE+pPAN+pMLP)}
+-----PPT---------------------------------------------
+Financiamiento: {Math.If(pPPT/ (pVAMOS+pTODOS+pUNE+pUNIONISTA+pCONVERGENCIA+pCREO+pFCN+pWINAQ+pPPT+pUNIDOS+pEG+pURNG+pVICTORIA+pPHG+pVIVA+pAVANZA+pLIBRE+pPAN+pMLP)>0.05,pPPT*2,0)}
+Porcentaje: {pPPT/ (pVAMOS+pTODOS+pUNE+pUNIONISTA+pCONVERGENCIA+pCREO+pFCN+pWINAQ+pPPT+pUNIDOS+pEG+pURNG+pVICTORIA+pPHG+pVIVA+pAVANZA+pLIBRE+pPAN+pMLP)}
+-----UNIDOS---------------------------------------------
+FI: {Math.If(pUNIDOS/ (pVAMOS+pTODOS+pUNE+pUNIONISTA+pCONVERGENCIA+pCREO+pFCN+pWINAQ+pPPT+pUNIDOS+pEG+pURNG+pVICTORIA+pPHG+pVIVA+pAVANZA+pLIBRE+pPAN+pMLP)>0.05,pUNIDOS*2,0)}
+Porcentaje: {pUNIDOS/ (pVAMOS+pTODOS+pUNE+pUNIONISTA+pCONVERGENCIA+pCREO+pFCN+pWINAQ+pPPT+pUNIDOS+pEG+pURNG+pVICTORIA+pPHG+pVIVA+pAVANZA+pLIBRE+pPAN+pMLP)}
+-----EG:---------------------------------------------
+FI: {Math.If(pEG/ (pVAMOS+pTODOS+pUNE+pUNIONISTA+pCONVERGENCIA+pCREO+pFCN+pWINAQ+pPPT+pUNIDOS+pEG+pURNG+pVICTORIA+pPHG+pVIVA+pAVANZA+pLIBRE+pPAN+pMLP)>0.05,pEG*2,0)}
+Porcentaje: 
+{pEG/ (pVAMOS+pTODOS+pUNE+pUNIONISTA+pCONVERGENCIA+pCREO+pFCN+pWINAQ+pPPT+pUNIDOS+pEG+pURNG+pVICTORIA+pPHG+pVIVA+pAVANZA+pLIBRE+pPAN+pMLP)}
+-----URNG---------------------------------------------
+FI: {Math.If(pURNG/ (pVAMOS+pTODOS+pUNE+pUNIONISTA+pCONVERGENCIA+pCREO+pFCN+pWINAQ+pPPT+pUNIDOS+pEG+pURNG+pVICTORIA+pPHG+pVIVA+pAVANZA+pLIBRE+pPAN+pMLP)>0.05,pURNG*2,0)}
+Porcentaje: {pURNG/ (pVAMOS+pTODOS+pUNE+pUNIONISTA+pCONVERGENCIA+pCREO+pFCN+pWINAQ+pPPT+pUNIDOS+pEG+pURNG+pVICTORIA+pPHG+pVIVA+pAVANZA+pLIBRE+pPAN+pMLP)}
+-----VICTORIA---------------------------------------------
+FI: {Math.If(pVICTORIA/ (pVAMOS+pTODOS+pUNE+pUNIONISTA+pCONVERGENCIA+pCREO+pFCN+pWINAQ+pPPT+pUNIDOS+pEG+pURNG+pVICTORIA+pPHG+pVIVA+pAVANZA+pLIBRE+pPAN+pMLP)>0.05,pVICTORIA*2,0)}
+Porcentaje: {pVICTORIA/ (pVAMOS+pTODOS+pUNE+pUNIONISTA+pCONVERGENCIA+pCREO+pFCN+pWINAQ+pPPT+pUNIDOS+pEG+pURNG+pVICTORIA+pPHG+pVIVA+pAVANZA+pLIBRE+pPAN+pMLP)}
+-----PHG---------------------------------------------
+FI: {Math.If(pPHG/ (pVAMOS+pTODOS+pUNE+pUNIONISTA+pCONVERGENCIA+pCREO+pFCN+pWINAQ+pPPT+pUNIDOS+pEG+pURNG+pVICTORIA+pPHG+pVIVA+pAVANZA+pLIBRE+pPAN+pMLP)>0.05,pPHG*2,0)}
+Porcentaje: {pPHG/ (pVAMOS+pTODOS+pUNE+pUNIONISTA+pCONVERGENCIA+pCREO+pFCN+pWINAQ+pPPT+pUNIDOS+pEG+pURNG+pVICTORIA+pPHG+pVIVA+pAVANZA+pLIBRE+pPAN+pMLP)}
+-----VIVA---------------------------------------------
+FI: {Math.If(pVIVA/ (pVAMOS+pTODOS+pUNE+pUNIONISTA+pCONVERGENCIA+pCREO+pFCN+pWINAQ+pPPT+pUNIDOS+pEG+pURNG+pVICTORIA+pPHG+pVIVA+pAVANZA+pLIBRE+pPAN+pMLP)>0.05,pVIVA*2,0)}
+Porcentaje: {pVIVA/ (pVAMOS+pTODOS+pUNE+pUNIONISTA+pCONVERGENCIA+pCREO+pFCN+pWINAQ+pPPT+pUNIDOS+pEG+pURNG+pVICTORIA+pPHG+pVIVA+pAVANZA+pLIBRE+pPAN+pMLP)}
+-----AVANZA---------------------------------------------
+FI: {Math.If(pAVANZA/ (pVAMOS+pTODOS+pUNE+pUNIONISTA+pCONVERGENCIA+pCREO+pFCN+pWINAQ+pPPT+pUNIDOS+pEG+pURNG+pVICTORIA+pPHG+pVIVA+pAVANZA+pLIBRE+pPAN+pMLP)>0.05,pAVANZA*2,0)}
+Porcentaje: {pAVANZA/ (pVAMOS+pTODOS+pUNE+pUNIONISTA+pCONVERGENCIA+pCREO+pFCN+pWINAQ+pPPT+pUNIDOS+pEG+pURNG+pVICTORIA+pPHG+pVIVA+pAVANZA+pLIBRE+pPAN+pMLP)}
+-----LIBRE---------------------------------------------
+FI: {Math.If(pLIBRE/ (pVAMOS+pTODOS+pUNE+pUNIONISTA+pCONVERGENCIA+pCREO+pFCN+pWINAQ+pPPT+pUNIDOS+pEG+pURNG+pVICTORIA+pPHG+pVIVA+pAVANZA+pLIBRE+pPAN+pMLP)>0.05,pLIBRE*2,0)}
+Porcentaje: {pLIBRE/ (pVAMOS+pTODOS+pUNE+pUNIONISTA+pCONVERGENCIA+pCREO+pFCN+pWINAQ+pPPT+pUNIDOS+pEG+pURNG+pVICTORIA+pPHG+pVIVA+pAVANZA+pLIBRE+pPAN+pMLP)}
+-----PAN---------------------------------------------
+FI: {Math.If(pPAN/ (pVAMOS+pTODOS+pUNE+pUNIONISTA+pCONVERGENCIA+pCREO+pFCN+pWINAQ+pPPT+pUNIDOS+pEG+pURNG+pVICTORIA+pPHG+pVIVA+pAVANZA+pLIBRE+pPAN+pMLP)>0.05,pPAN*2,0)}
+Porcentaje: {pPAN/ (pVAMOS+pTODOS+pUNE+pUNIONISTA+pCONVERGENCIA+pCREO+pFCN+pWINAQ+pPPT+pUNIDOS+pEG+pURNG+pVICTORIA+pPHG+pVIVA+pAVANZA+pLIBRE+pPAN+pMLP)}
+-----MLP---------------------------------------------
+FI: {Math.If(pMLP/ (pVAMOS+pTODOS+pUNE+pUNIONISTA+pCONVERGENCIA+pCREO+pFCN+pWINAQ+pPPT+pUNIDOS+pEG+pURNG+pVICTORIA+pPHG+pVIVA+pAVANZA+pLIBRE+pPAN+pMLP)>0.05,pMLP*2,0)}
+Porcentaje: {pMLP/ (pVAMOS+pTODOS+pUNE+pUNIONISTA+pCONVERGENCIA+pCREO+pFCN+pWINAQ+pPPT+pUNIDOS+pEG+pURNG+pVICTORIA+pPHG+pVIVA+pAVANZA+pLIBRE+pPAN+pMLP)}
+
+
+
+Diputados listado nacional
+----PHG--------------------
+FI:{Math.If(dListaPHG/ (dListaPHG+dListaVAMOS+dListaTODOS+dListaUNE+dListaVALOR+dListaUNIONISTA+dListaFUERZA+dListaFCN+dListaWINAQ+dListaUCN+dListaEG+dListaURNG+dListaPAN+dListaPPT+dListaPC+dListaVICTORIA+dListaSEMILLA+dListaVIVA+dListaCREO+dListaCONVERGENCIA+dListaUNIDOS+dListaPODEMOS+dListaBIEN+dListaLIBRE+dListaAVANZA+dListaMLP)>0.05,dListaPHG*2,0)}
+----VAMOS--------------------
+FI:{Math.If(dListaVAMOS/ (dListaPHG+dListaVAMOS+dListaTODOS+dListaUNE+dListaVALOR+dListaUNIONISTA+dListaFUERZA+dListaFCN+dListaWINAQ+dListaUCN+dListaEG+dListaURNG+dListaPAN+dListaPPT+dListaPC+dListaVICTORIA+dListaSEMILLA+dListaVIVA+dListaCREO+dListaCONVERGENCIA+dListaUNIDOS+dListaPODEMOS+dListaBIEN+dListaLIBRE+dListaAVANZA+dListaMLP)>0.05,dListaVAMOS*2,0)}
+----TODOS--------------------
+FI:{Math.If(dListaTODOS/ (dListaPHG+dListaVAMOS+dListaTODOS+dListaUNE+dListaVALOR+dListaUNIONISTA+dListaFUERZA+dListaFCN+dListaWINAQ+dListaUCN+dListaEG+dListaURNG+dListaPAN+dListaPPT+dListaPC+dListaVICTORIA+dListaSEMILLA+dListaVIVA+dListaCREO+dListaCONVERGENCIA+dListaUNIDOS+dListaPODEMOS+dListaBIEN+dListaLIBRE+dListaAVANZA+dListaMLP)>0.05,dListaTODOS*2,0)}
+----UNE--------------------
+FI:{Math.If(dListaUNE/ (dListaPHG+dListaVAMOS+dListaTODOS+dListaUNE+dListaVALOR+dListaUNIONISTA+dListaFUERZA+dListaFCN+dListaWINAQ+dListaUCN+dListaEG+dListaURNG+dListaPAN+dListaPPT+dListaPC+dListaVICTORIA+dListaSEMILLA+dListaVIVA+dListaCREO+dListaCONVERGENCIA+dListaUNIDOS+dListaPODEMOS+dListaBIEN+dListaLIBRE+dListaAVANZA+dListaMLP)>0.05,dListaUNE*2,0)}
+----VALOR--------------------
+FI:{Math.If(dListaVALOR/ (dListaPHG+dListaVAMOS+dListaTODOS+dListaUNE+dListaVALOR+dListaUNIONISTA+dListaFUERZA+dListaFCN+dListaWINAQ+dListaUCN+dListaEG+dListaURNG+dListaPAN+dListaPPT+dListaPC+dListaVICTORIA+dListaSEMILLA+dListaVIVA+dListaCREO+dListaCONVERGENCIA+dListaUNIDOS+dListaPODEMOS+dListaBIEN+dListaLIBRE+dListaAVANZA+dListaMLP)>0.05,dListaVALOR*2,0)}
+----UNIONISTA--------------------
+FI:{Math.If(dListaUNIONISTA/ (dListaPHG+dListaVAMOS+dListaTODOS+dListaUNE+dListaVALOR+dListaUNIONISTA+dListaFUERZA+dListaFCN+dListaWINAQ+dListaUCN+dListaEG+dListaURNG+dListaPAN+dListaPPT+dListaPC+dListaVICTORIA+dListaSEMILLA+dListaVIVA+dListaCREO+dListaCONVERGENCIA+dListaUNIDOS+dListaPODEMOS+dListaBIEN+dListaLIBRE+dListaAVANZA+dListaMLP)>0.05,dListaUNIONISTA*2,0)}
+----FUERZA--------------------
+FI:{Math.If(dListaFUERZA/ (dListaPHG+dListaVAMOS+dListaTODOS+dListaUNE+dListaVALOR+dListaUNIONISTA+dListaFUERZA+dListaFCN+dListaWINAQ+dListaUCN+dListaEG+dListaURNG+dListaPAN+dListaPPT+dListaPC+dListaVICTORIA+dListaSEMILLA+dListaVIVA+dListaCREO+dListaCONVERGENCIA+dListaUNIDOS+dListaPODEMOS+dListaBIEN+dListaLIBRE+dListaAVANZA+dListaMLP)>0.05,dListaFUERZA*2,0)}
+----FCN--------------------
+FI:{Math.If(dListaFCN/ (dListaPHG+dListaVAMOS+dListaTODOS+dListaUNE+dListaVALOR+dListaUNIONISTA+dListaFUERZA+dListaFCN+dListaWINAQ+dListaUCN+dListaEG+dListaURNG+dListaPAN+dListaPPT+dListaPC+dListaVICTORIA+dListaSEMILLA+dListaVIVA+dListaCREO+dListaCONVERGENCIA+dListaUNIDOS+dListaPODEMOS+dListaBIEN+dListaLIBRE+dListaAVANZA+dListaMLP)>0.05,dListaFCN*2,0)}
+----WINAQ--------------------
+FI:{Math.If(dListaWINAQ/ (dListaPHG+dListaVAMOS+dListaTODOS+dListaUNE+dListaVALOR+dListaUNIONISTA+dListaFUERZA+dListaFCN+dListaWINAQ+dListaUCN+dListaEG+dListaURNG+dListaPAN+dListaPPT+dListaPC+dListaVICTORIA+dListaSEMILLA+dListaVIVA+dListaCREO+dListaCONVERGENCIA+dListaUNIDOS+dListaPODEMOS+dListaBIEN+dListaLIBRE+dListaAVANZA+dListaMLP)>0.05,dListaWINAQ*2,0)}
+----UCN--------------------
+FI:{Math.If(dListaUCN/ (dListaPHG+dListaVAMOS+dListaTODOS+dListaUNE+dListaVALOR+dListaUNIONISTA+dListaFUERZA+dListaFCN+dListaWINAQ+dListaUCN+dListaEG+dListaURNG+dListaPAN+dListaPPT+dListaPC+dListaVICTORIA+dListaSEMILLA+dListaVIVA+dListaCREO+dListaCONVERGENCIA+dListaUNIDOS+dListaPODEMOS+dListaBIEN+dListaLIBRE+dListaAVANZA+dListaMLP)>0.05,dListaUCN*2,0)}
+----EG--------------------
+FI:{Math.If(dListaEG/ (dListaPHG+dListaVAMOS+dListaTODOS+dListaUNE+dListaVALOR+dListaUNIONISTA+dListaFUERZA+dListaFCN+dListaWINAQ+dListaUCN+dListaEG+dListaURNG+dListaPAN+dListaPPT+dListaPC+dListaVICTORIA+dListaSEMILLA+dListaVIVA+dListaCREO+dListaCONVERGENCIA+dListaUNIDOS+dListaPODEMOS+dListaBIEN+dListaLIBRE+dListaAVANZA+dListaMLP)>0.05,dListaEG*2,0)}
+----URNG--------------------
+FI:{Math.If(dListaURNG/ (dListaPHG+dListaVAMOS+dListaTODOS+dListaUNE+dListaVALOR+dListaUNIONISTA+dListaFUERZA+dListaFCN+dListaWINAQ+dListaUCN+dListaEG+dListaURNG+dListaPAN+dListaPPT+dListaPC+dListaVICTORIA+dListaSEMILLA+dListaVIVA+dListaCREO+dListaCONVERGENCIA+dListaUNIDOS+dListaPODEMOS+dListaBIEN+dListaLIBRE+dListaAVANZA+dListaMLP)>0.05,dListaURNG*2,0)}
+----PAN--------------------
+FI:{Math.If(dListaPAN/ (dListaPHG+dListaVAMOS+dListaTODOS+dListaUNE+dListaVALOR+dListaUNIONISTA+dListaFUERZA+dListaFCN+dListaWINAQ+dListaUCN+dListaEG+dListaURNG+dListaPAN+dListaPPT+dListaPC+dListaVICTORIA+dListaSEMILLA+dListaVIVA+dListaCREO+dListaCONVERGENCIA+dListaUNIDOS+dListaPODEMOS+dListaBIEN+dListaLIBRE+dListaAVANZA+dListaMLP)>0.05,dListaPAN*2,0)}
+----PPT--------------------
+FI:{Math.If(dListaPPT/ (dListaPHG+dListaVAMOS+dListaTODOS+dListaUNE+dListaVALOR+dListaUNIONISTA+dListaFUERZA+dListaFCN+dListaWINAQ+dListaUCN+dListaEG+dListaURNG+dListaPAN+dListaPPT+dListaPC+dListaVICTORIA+dListaSEMILLA+dListaVIVA+dListaCREO+dListaCONVERGENCIA+dListaUNIDOS+dListaPODEMOS+dListaBIEN+dListaLIBRE+dListaAVANZA+dListaMLP)>0.05,dListaPPT*2,0)}
+----PC--------------------
+FI:{Math.If(dListaPC/ (dListaPHG+dListaVAMOS+dListaTODOS+dListaUNE+dListaVALOR+dListaUNIONISTA+dListaFUERZA+dListaFCN+dListaWINAQ+dListaUCN+dListaEG+dListaURNG+dListaPAN+dListaPPT+dListaPC+dListaVICTORIA+dListaSEMILLA+dListaVIVA+dListaCREO+dListaCONVERGENCIA+dListaUNIDOS+dListaPODEMOS+dListaBIEN+dListaLIBRE+dListaAVANZA+dListaMLP)>0.05,dListaPC*2,0)}
+----VICTORIA--------------------
+FI:{Math.If(dListaVICTORIA/ (dListaPHG+dListaVAMOS+dListaTODOS+dListaUNE+dListaVALOR+dListaUNIONISTA+dListaFUERZA+dListaFCN+dListaWINAQ+dListaUCN+dListaEG+dListaURNG+dListaPAN+dListaPPT+dListaPC+dListaVICTORIA+dListaSEMILLA+dListaVIVA+dListaCREO+dListaCONVERGENCIA+dListaUNIDOS+dListaPODEMOS+dListaBIEN+dListaLIBRE+dListaAVANZA+dListaMLP)>0.05,dListaVICTORIA*2,0)}
+----SEMILLA--------------------
+FI:{Math.If(dListaSEMILLA/ (dListaPHG+dListaVAMOS+dListaTODOS+dListaUNE+dListaVALOR+dListaUNIONISTA+dListaFUERZA+dListaFCN+dListaWINAQ+dListaUCN+dListaEG+dListaURNG+dListaPAN+dListaPPT+dListaPC+dListaVICTORIA+dListaSEMILLA+dListaVIVA+dListaCREO+dListaCONVERGENCIA+dListaUNIDOS+dListaPODEMOS+dListaBIEN+dListaLIBRE+dListaAVANZA+dListaMLP)>0.05,dListaSEMILLA*2,0)}
+----VIVA--------------------
+FI:{Math.If(dListaVIVA/ (dListaPHG+dListaVAMOS+dListaTODOS+dListaUNE+dListaVALOR+dListaUNIONISTA+dListaFUERZA+dListaFCN+dListaWINAQ+dListaUCN+dListaEG+dListaURNG+dListaPAN+dListaPPT+dListaPC+dListaVICTORIA+dListaSEMILLA+dListaVIVA+dListaCREO+dListaCONVERGENCIA+dListaUNIDOS+dListaPODEMOS+dListaBIEN+dListaLIBRE+dListaAVANZA+dListaMLP)>0.05,dListaVIVA*2,0)}
+----CREO--------------------
+FI:{Math.If(dListaCREO/ (dListaPHG+dListaVAMOS+dListaTODOS+dListaUNE+dListaVALOR+dListaUNIONISTA+dListaFUERZA+dListaFCN+dListaWINAQ+dListaUCN+dListaEG+dListaURNG+dListaPAN+dListaPPT+dListaPC+dListaVICTORIA+dListaSEMILLA+dListaVIVA+dListaCREO+dListaCONVERGENCIA+dListaUNIDOS+dListaPODEMOS+dListaBIEN+dListaLIBRE+dListaAVANZA+dListaMLP)>0.05,dListaCREO*2,0)}
+----CONVERGENCIA--------------------
+FI:{Math.If(dListaCONVERGENCIA/ (dListaPHG+dListaVAMOS+dListaTODOS+dListaUNE+dListaVALOR+dListaUNIONISTA+dListaFUERZA+dListaFCN+dListaWINAQ+dListaUCN+dListaEG+dListaURNG+dListaPAN+dListaPPT+dListaPC+dListaVICTORIA+dListaSEMILLA+dListaVIVA+dListaCREO+dListaCONVERGENCIA+dListaUNIDOS+dListaPODEMOS+dListaBIEN+dListaLIBRE+dListaAVANZA+dListaMLP)>0.05,dListaCONVERGENCIA*2,0)}
+----UNIDOS--------------------
+FI:{Math.If(dListaUNIDOS/ (dListaPHG+dListaVAMOS+dListaTODOS+dListaUNE+dListaVALOR+dListaUNIONISTA+dListaFUERZA+dListaFCN+dListaWINAQ+dListaUCN+dListaEG+dListaURNG+dListaPAN+dListaPPT+dListaPC+dListaVICTORIA+dListaSEMILLA+dListaVIVA+dListaCREO+dListaCONVERGENCIA+dListaUNIDOS+dListaPODEMOS+dListaBIEN+dListaLIBRE+dListaAVANZA+dListaMLP)>0.05,dListaUNIDOS*2,0)}
+----PODEMOS--------------------
+FI:{Math.If(dListaPODEMOS/ (dListaPHG+dListaVAMOS+dListaTODOS+dListaUNE+dListaVALOR+dListaUNIONISTA+dListaFUERZA+dListaFCN+dListaWINAQ+dListaUCN+dListaEG+dListaURNG+dListaPAN+dListaPPT+dListaPC+dListaVICTORIA+dListaSEMILLA+dListaVIVA+dListaCREO+dListaCONVERGENCIA+dListaUNIDOS+dListaPODEMOS+dListaBIEN+dListaLIBRE+dListaAVANZA+dListaMLP)>0.05,dListaPODEMOS*2,0)}
+----BIEN--------------------
+FI:{Math.If(dListaBIEN/ (dListaPHG+dListaVAMOS+dListaTODOS+dListaUNE+dListaVALOR+dListaUNIONISTA+dListaFUERZA+dListaFCN+dListaWINAQ+dListaUCN+dListaEG+dListaURNG+dListaPAN+dListaPPT+dListaPC+dListaVICTORIA+dListaSEMILLA+dListaVIVA+dListaCREO+dListaCONVERGENCIA+dListaUNIDOS+dListaPODEMOS+dListaBIEN+dListaLIBRE+dListaAVANZA+dListaMLP)>0.05,dListaBIEN*2,0)}
+----LIBRE--------------------
+FI:{Math.If(dListaLIBRE/ (dListaPHG+dListaVAMOS+dListaTODOS+dListaUNE+dListaVALOR+dListaUNIONISTA+dListaFUERZA+dListaFCN+dListaWINAQ+dListaUCN+dListaEG+dListaURNG+dListaPAN+dListaPPT+dListaPC+dListaVICTORIA+dListaSEMILLA+dListaVIVA+dListaCREO+dListaCONVERGENCIA+dListaUNIDOS+dListaPODEMOS+dListaBIEN+dListaLIBRE+dListaAVANZA+dListaMLP)>0.05,dListaLIBRE*2,0)}
+----AVANZA--------------------
+FI:{Math.If(dListaAVANZA/ (dListaPHG+dListaVAMOS+dListaTODOS+dListaUNE+dListaVALOR+dListaUNIONISTA+dListaFUERZA+dListaFCN+dListaWINAQ+dListaUCN+dListaEG+dListaURNG+dListaPAN+dListaPPT+dListaPC+dListaVICTORIA+dListaSEMILLA+dListaVIVA+dListaCREO+dListaCONVERGENCIA+dListaUNIDOS+dListaPODEMOS+dListaBIEN+dListaLIBRE+dListaAVANZA+dListaMLP)>0.05,dListaAVANZA*2,0)}
+----MLP--------------------
+FI:{Math.If(dListaMLP/ (dListaPHG+dListaVAMOS+dListaTODOS+dListaUNE+dListaVALOR+dListaUNIONISTA+dListaFUERZA+dListaFCN+dListaWINAQ+dListaUCN+dListaEG+dListaURNG+dListaPAN+dListaPPT+dListaPC+dListaVICTORIA+dListaSEMILLA+dListaVIVA+dListaCREO+dListaCONVERGENCIA+dListaUNIDOS+dListaPODEMOS+dListaBIEN+dListaLIBRE+dListaAVANZA+dListaMLP)>0.05,dListaMLP*2,0)}
+
+
+
+
+Diputados Distratales
+----dDistraPPT--------------------
+Fi:{Math.If(dDistraPPT/ (dDistraPPT+dDistraVAMOS+dDistraFUERZA+dDistraTODOS+dDistraUNE+dDistraUNIONISTA+dDistraVALOR+dDistraWINAQ+dDistraUCN+dDistraEG+dDistraCONVERGENCIA+dDistraPAN+dDistraPHG+dDistraPC+dDIstraBIEN+dDistraUNIDOS+dDistraPODEMOS+dDistraFCN+dDistraSEMILLA+dDistraVICTORIA+dDistraVIVA+dDistraURNG+dDistraCREO+dDDistraLIBRE+dDistraAVANZA+dDistraMLP)>0.05,dDistraPPT*2,0)}
+----dDistraVAMOS--------------------
+Fi:{Math.If(dDistraVAMOS/ (dDistraPPT+dDistraVAMOS+dDistraFUERZA+dDistraTODOS+dDistraUNE+dDistraUNIONISTA+dDistraVALOR+dDistraWINAQ+dDistraUCN+dDistraEG+dDistraCONVERGENCIA+dDistraPAN+dDistraPHG+dDistraPC+dDIstraBIEN+dDistraUNIDOS+dDistraPODEMOS+dDistraFCN+dDistraSEMILLA+dDistraVICTORIA+dDistraVIVA+dDistraURNG+dDistraCREO+dDDistraLIBRE+dDistraAVANZA+dDistraMLP)>0.05,dDistraVAMOS*2,0)}
+----dDistraFUERZA--------------------
+Fi:{Math.If(dDistraFUERZA/ (dDistraPPT+dDistraVAMOS+dDistraFUERZA+dDistraTODOS+dDistraUNE+dDistraUNIONISTA+dDistraVALOR+dDistraWINAQ+dDistraUCN+dDistraEG+dDistraCONVERGENCIA+dDistraPAN+dDistraPHG+dDistraPC+dDIstraBIEN+dDistraUNIDOS+dDistraPODEMOS+dDistraFCN+dDistraSEMILLA+dDistraVICTORIA+dDistraVIVA+dDistraURNG+dDistraCREO+dDDistraLIBRE+dDistraAVANZA+dDistraMLP)>0.05,dDistraFUERZA*2,0)}
+----dDistraTODOS--------------------
+Fi:{Math.If(dDistraTODOS/ (dDistraPPT+dDistraVAMOS+dDistraFUERZA+dDistraTODOS+dDistraUNE+dDistraUNIONISTA+dDistraVALOR+dDistraWINAQ+dDistraUCN+dDistraEG+dDistraCONVERGENCIA+dDistraPAN+dDistraPHG+dDistraPC+dDIstraBIEN+dDistraUNIDOS+dDistraPODEMOS+dDistraFCN+dDistraSEMILLA+dDistraVICTORIA+dDistraVIVA+dDistraURNG+dDistraCREO+dDDistraLIBRE+dDistraAVANZA+dDistraMLP)>0.05,dDistraTODOS*2,0)}
+----dDistraUNE--------------------
+Fi:{Math.If(dDistraUNE/ (dDistraPPT+dDistraVAMOS+dDistraFUERZA+dDistraTODOS+dDistraUNE+dDistraUNIONISTA+dDistraVALOR+dDistraWINAQ+dDistraUCN+dDistraEG+dDistraCONVERGENCIA+dDistraPAN+dDistraPHG+dDistraPC+dDIstraBIEN+dDistraUNIDOS+dDistraPODEMOS+dDistraFCN+dDistraSEMILLA+dDistraVICTORIA+dDistraVIVA+dDistraURNG+dDistraCREO+dDDistraLIBRE+dDistraAVANZA+dDistraMLP)>0.05,dDistraUNE*2,0)}
+----dDistraUNIONISTA--------------------
+Fi:{Math.If(dDistraUNIONISTA/ (dDistraPPT+dDistraVAMOS+dDistraFUERZA+dDistraTODOS+dDistraUNE+dDistraUNIONISTA+dDistraVALOR+dDistraWINAQ+dDistraUCN+dDistraEG+dDistraCONVERGENCIA+dDistraPAN+dDistraPHG+dDistraPC+dDIstraBIEN+dDistraUNIDOS+dDistraPODEMOS+dDistraFCN+dDistraSEMILLA+dDistraVICTORIA+dDistraVIVA+dDistraURNG+dDistraCREO+dDDistraLIBRE+dDistraAVANZA+dDistraMLP)>0.05,dDistraUNIONISTA*2,0)}
+----dDistraVALOR--------------------
+Fi:{Math.If(dDistraVALOR/ (dDistraPPT+dDistraVAMOS+dDistraFUERZA+dDistraTODOS+dDistraUNE+dDistraUNIONISTA+dDistraVALOR+dDistraWINAQ+dDistraUCN+dDistraEG+dDistraCONVERGENCIA+dDistraPAN+dDistraPHG+dDistraPC+dDIstraBIEN+dDistraUNIDOS+dDistraPODEMOS+dDistraFCN+dDistraSEMILLA+dDistraVICTORIA+dDistraVIVA+dDistraURNG+dDistraCREO+dDDistraLIBRE+dDistraAVANZA+dDistraMLP)>0.05,dDistraVALOR*2,0)}
+----dDistraWINAQ--------------------
+Fi:{Math.If(dDistraWINAQ/ (dDistraPPT+dDistraVAMOS+dDistraFUERZA+dDistraTODOS+dDistraUNE+dDistraUNIONISTA+dDistraVALOR+dDistraWINAQ+dDistraUCN+dDistraEG+dDistraCONVERGENCIA+dDistraPAN+dDistraPHG+dDistraPC+dDIstraBIEN+dDistraUNIDOS+dDistraPODEMOS+dDistraFCN+dDistraSEMILLA+dDistraVICTORIA+dDistraVIVA+dDistraURNG+dDistraCREO+dDDistraLIBRE+dDistraAVANZA+dDistraMLP)>0.05,dDistraWINAQ*2,0)}
+----dDistraUCN--------------------
+Fi:{Math.If(dDistraUCN/ (dDistraPPT+dDistraVAMOS+dDistraFUERZA+dDistraTODOS+dDistraUNE+dDistraUNIONISTA+dDistraVALOR+dDistraWINAQ+dDistraUCN+dDistraEG+dDistraCONVERGENCIA+dDistraPAN+dDistraPHG+dDistraPC+dDIstraBIEN+dDistraUNIDOS+dDistraPODEMOS+dDistraFCN+dDistraSEMILLA+dDistraVICTORIA+dDistraVIVA+dDistraURNG+dDistraCREO+dDDistraLIBRE+dDistraAVANZA+dDistraMLP)>0.05,dDistraUCN*2,0)}
+----dDistraEG--------------------
+Fi:{Math.If(dDistraEG/ (dDistraPPT+dDistraVAMOS+dDistraFUERZA+dDistraTODOS+dDistraUNE+dDistraUNIONISTA+dDistraVALOR+dDistraWINAQ+dDistraUCN+dDistraEG+dDistraCONVERGENCIA+dDistraPAN+dDistraPHG+dDistraPC+dDIstraBIEN+dDistraUNIDOS+dDistraPODEMOS+dDistraFCN+dDistraSEMILLA+dDistraVICTORIA+dDistraVIVA+dDistraURNG+dDistraCREO+dDDistraLIBRE+dDistraAVANZA+dDistraMLP)>0.05,dDistraEG*2,0)}
+----dDistraCONVERGENCIA--------------------
+Fi:{Math.If(dDistraCONVERGENCIA/ (dDistraPPT+dDistraVAMOS+dDistraFUERZA+dDistraTODOS+dDistraUNE+dDistraUNIONISTA+dDistraVALOR+dDistraWINAQ+dDistraUCN+dDistraEG+dDistraCONVERGENCIA+dDistraPAN+dDistraPHG+dDistraPC+dDIstraBIEN+dDistraUNIDOS+dDistraPODEMOS+dDistraFCN+dDistraSEMILLA+dDistraVICTORIA+dDistraVIVA+dDistraURNG+dDistraCREO+dDDistraLIBRE+dDistraAVANZA+dDistraMLP)>0.05,dDistraCONVERGENCIA*2,0)}
+----dDistraPAN--------------------
+Fi:{Math.If(dDistraPAN/ (dDistraPPT+dDistraVAMOS+dDistraFUERZA+dDistraTODOS+dDistraUNE+dDistraUNIONISTA+dDistraVALOR+dDistraWINAQ+dDistraUCN+dDistraEG+dDistraCONVERGENCIA+dDistraPAN+dDistraPHG+dDistraPC+dDIstraBIEN+dDistraUNIDOS+dDistraPODEMOS+dDistraFCN+dDistraSEMILLA+dDistraVICTORIA+dDistraVIVA+dDistraURNG+dDistraCREO+dDDistraLIBRE+dDistraAVANZA+dDistraMLP)>0.05,dDistraPAN*2,0)}
+----dDistraPHG--------------------
+Fi:{Math.If(dDistraPHG/ (dDistraPPT+dDistraVAMOS+dDistraFUERZA+dDistraTODOS+dDistraUNE+dDistraUNIONISTA+dDistraVALOR+dDistraWINAQ+dDistraUCN+dDistraEG+dDistraCONVERGENCIA+dDistraPAN+dDistraPHG+dDistraPC+dDIstraBIEN+dDistraUNIDOS+dDistraPODEMOS+dDistraFCN+dDistraSEMILLA+dDistraVICTORIA+dDistraVIVA+dDistraURNG+dDistraCREO+dDDistraLIBRE+dDistraAVANZA+dDistraMLP)>0.05,dDistraPHG*2,0)}
+----dDistraPPT--------------------
+Fi:{Math.If(dDistraPPT/ (dDistraPPT+dDistraVAMOS+dDistraFUERZA+dDistraTODOS+dDistraUNE+dDistraUNIONISTA+dDistraVALOR+dDistraWINAQ+dDistraUCN+dDistraEG+dDistraCONVERGENCIA+dDistraPAN+dDistraPHG+dDistraPC+dDIstraBIEN+dDistraUNIDOS+dDistraPODEMOS+dDistraFCN+dDistraSEMILLA+dDistraVICTORIA+dDistraVIVA+dDistraURNG+dDistraCREO+dDDistraLIBRE+dDistraAVANZA+dDistraMLP)>0.05,dDistraPPT*2,0)}
+----dDistraPC--------------------
+Fi:{Math.If(dDistraPC/ (dDistraPPT+dDistraVAMOS+dDistraFUERZA+dDistraTODOS+dDistraUNE+dDistraUNIONISTA+dDistraVALOR+dDistraWINAQ+dDistraUCN+dDistraEG+dDistraCONVERGENCIA+dDistraPAN+dDistraPHG+dDistraPC+dDIstraBIEN+dDistraUNIDOS+dDistraPODEMOS+dDistraFCN+dDistraSEMILLA+dDistraVICTORIA+dDistraVIVA+dDistraURNG+dDistraCREO+dDDistraLIBRE+dDistraAVANZA+dDistraMLP)>0.05,dDistraPC*2,0)}
+----dDIstraBIEN--------------------
+Fi:{Math.If(dDIstraBIEN/ (dDistraPPT+dDistraVAMOS+dDistraFUERZA+dDistraTODOS+dDistraUNE+dDistraUNIONISTA+dDistraVALOR+dDistraWINAQ+dDistraUCN+dDistraEG+dDistraCONVERGENCIA+dDistraPAN+dDistraPHG+dDistraPC+dDIstraBIEN+dDistraUNIDOS+dDistraPODEMOS+dDistraFCN+dDistraSEMILLA+dDistraVICTORIA+dDistraVIVA+dDistraURNG+dDistraCREO+dDDistraLIBRE+dDistraAVANZA+dDistraMLP)>0.05,dDIstraBIEN*2,0)}
+----dDistraUNIDOS--------------------
+Fi:{Math.If(dDistraUNIDOS/ (dDistraPPT+dDistraVAMOS+dDistraFUERZA+dDistraTODOS+dDistraUNE+dDistraUNIONISTA+dDistraVALOR+dDistraWINAQ+dDistraUCN+dDistraEG+dDistraCONVERGENCIA+dDistraPAN+dDistraPHG+dDistraPC+dDIstraBIEN+dDistraUNIDOS+dDistraPODEMOS+dDistraFCN+dDistraSEMILLA+dDistraVICTORIA+dDistraVIVA+dDistraURNG+dDistraCREO+dDDistraLIBRE+dDistraAVANZA+dDistraMLP)>0.05,dDistraUNIDOS*2,0)}
+----dDistraPODEMOS--------------------
+Fi:{Math.If(dDistraPODEMOS/ (dDistraPPT+dDistraVAMOS+dDistraFUERZA+dDistraTODOS+dDistraUNE+dDistraUNIONISTA+dDistraVALOR+dDistraWINAQ+dDistraUCN+dDistraEG+dDistraCONVERGENCIA+dDistraPAN+dDistraPHG+dDistraPC+dDIstraBIEN+dDistraUNIDOS+dDistraPODEMOS+dDistraFCN+dDistraSEMILLA+dDistraVICTORIA+dDistraVIVA+dDistraURNG+dDistraCREO+dDDistraLIBRE+dDistraAVANZA+dDistraMLP)>0.05,dDistraPODEMOS*2,0)}
+----dDistraFCN--------------------
+Fi:{Math.If(dDistraFCN/ (dDistraPPT+dDistraVAMOS+dDistraFUERZA+dDistraTODOS+dDistraUNE+dDistraUNIONISTA+dDistraVALOR+dDistraWINAQ+dDistraUCN+dDistraEG+dDistraCONVERGENCIA+dDistraPAN+dDistraPHG+dDistraPC+dDIstraBIEN+dDistraUNIDOS+dDistraPODEMOS+dDistraFCN+dDistraSEMILLA+dDistraVICTORIA+dDistraVIVA+dDistraURNG+dDistraCREO+dDDistraLIBRE+dDistraAVANZA+dDistraMLP)>0.05,dDistraFCN*2,0)}
+----dDistraSEMILLA--------------------
+Fi:{Math.If(dDistraSEMILLA/ (dDistraPPT+dDistraVAMOS+dDistraFUERZA+dDistraTODOS+dDistraUNE+dDistraUNIONISTA+dDistraVALOR+dDistraWINAQ+dDistraUCN+dDistraEG+dDistraCONVERGENCIA+dDistraPAN+dDistraPHG+dDistraPC+dDIstraBIEN+dDistraUNIDOS+dDistraPODEMOS+dDistraFCN+dDistraSEMILLA+dDistraVICTORIA+dDistraVIVA+dDistraURNG+dDistraCREO+dDDistraLIBRE+dDistraAVANZA+dDistraMLP)>0.05,dDistraSEMILLA*2,0)}
+----dDistraVICTORIA--------------------
+Fi:{Math.If(dDistraVICTORIA/ (dDistraPPT+dDistraVAMOS+dDistraFUERZA+dDistraTODOS+dDistraUNE+dDistraUNIONISTA+dDistraVALOR+dDistraWINAQ+dDistraUCN+dDistraEG+dDistraCONVERGENCIA+dDistraPAN+dDistraPHG+dDistraPC+dDIstraBIEN+dDistraUNIDOS+dDistraPODEMOS+dDistraFCN+dDistraSEMILLA+dDistraVICTORIA+dDistraVIVA+dDistraURNG+dDistraCREO+dDDistraLIBRE+dDistraAVANZA+dDistraMLP)>0.05,dDistraVICTORIA*2,0)}
+----dDistraVIVA--------------------
+Fi:{Math.If(dDistraVIVA/ (dDistraPPT+dDistraVAMOS+dDistraFUERZA+dDistraTODOS+dDistraUNE+dDistraUNIONISTA+dDistraVALOR+dDistraWINAQ+dDistraUCN+dDistraEG+dDistraCONVERGENCIA+dDistraPAN+dDistraPHG+dDistraPC+dDIstraBIEN+dDistraUNIDOS+dDistraPODEMOS+dDistraFCN+dDistraSEMILLA+dDistraVICTORIA+dDistraVIVA+dDistraURNG+dDistraCREO+dDDistraLIBRE+dDistraAVANZA+dDistraMLP)>0.05,dDistraVIVA*2,0)}
+----dDistraURNG--------------------
+Fi:{Math.If(dDistraURNG/ (dDistraPPT+dDistraVAMOS+dDistraFUERZA+dDistraTODOS+dDistraUNE+dDistraUNIONISTA+dDistraVALOR+dDistraWINAQ+dDistraUCN+dDistraEG+dDistraCONVERGENCIA+dDistraPAN+dDistraPHG+dDistraPC+dDIstraBIEN+dDistraUNIDOS+dDistraPODEMOS+dDistraFCN+dDistraSEMILLA+dDistraVICTORIA+dDistraVIVA+dDistraURNG+dDistraCREO+dDDistraLIBRE+dDistraAVANZA+dDistraMLP)>0.05,dDistraURNG*2,0)}
+----dDistraCREO--------------------
+Fi:{Math.If(dDistraCREO/ (dDistraPPT+dDistraVAMOS+dDistraFUERZA+dDistraTODOS+dDistraUNE+dDistraUNIONISTA+dDistraVALOR+dDistraWINAQ+dDistraUCN+dDistraEG+dDistraCONVERGENCIA+dDistraPAN+dDistraPHG+dDistraPC+dDIstraBIEN+dDistraUNIDOS+dDistraPODEMOS+dDistraFCN+dDistraSEMILLA+dDistraVICTORIA+dDistraVIVA+dDistraURNG+dDistraCREO+dDDistraLIBRE+dDistraAVANZA+dDistraMLP)>0.05,dDistraCREO*2,0)}
+----dDDistraLIBRE--------------------
+Fi:{Math.If(dDDistraLIBRE/ (dDistraPPT+dDistraVAMOS+dDistraFUERZA+dDistraTODOS+dDistraUNE+dDistraUNIONISTA+dDistraVALOR+dDistraWINAQ+dDistraUCN+dDistraEG+dDistraCONVERGENCIA+dDistraPAN+dDistraPHG+dDistraPC+dDIstraBIEN+dDistraUNIDOS+dDistraPODEMOS+dDistraFCN+dDistraSEMILLA+dDistraVICTORIA+dDistraVIVA+dDistraURNG+dDistraCREO+dDDistraLIBRE+dDistraAVANZA+dDistraMLP)>0.05,dDDistraLIBRE*2,0)}
+----dDistraAVANZA--------------------
+Fi:{Math.If(dDistraAVANZA/ (dDistraPPT+dDistraVAMOS+dDistraFUERZA+dDistraTODOS+dDistraUNE+dDistraUNIONISTA+dDistraVALOR+dDistraWINAQ+dDistraUCN+dDistraEG+dDistraCONVERGENCIA+dDistraPAN+dDistraPHG+dDistraPC+dDIstraBIEN+dDistraUNIDOS+dDistraPODEMOS+dDistraFCN+dDistraSEMILLA+dDistraVICTORIA+dDistraVIVA+dDistraURNG+dDistraCREO+dDDistraLIBRE+dDistraAVANZA+dDistraMLP)>0.05,dDistraAVANZA*2,0)}
+----dDistraMLP--------------------
+Fi:{Math.If(dDistraMLP/ (dDistraPPT+dDistraVAMOS+dDistraFUERZA+dDistraTODOS+dDistraUNE+dDistraUNIONISTA+dDistraVALOR+dDistraWINAQ+dDistraUCN+dDistraEG+dDistraCONVERGENCIA+dDistraPAN+dDistraPHG+dDistraPC+dDIstraBIEN+dDistraUNIDOS+dDistraPODEMOS+dDistraFCN+dDistraSEMILLA+dDistraVICTORIA+dDistraVIVA+dDistraURNG+dDistraCREO+dDDistraLIBRE+dDistraAVANZA+dDistraMLP)>0.05,dDistraMLP*2,0)}
+
+
+Coorporacion municipal
+-----UCN---------------------------------------------
+FI: {Math.If(cUCN/ (cUCN +  cUNIONISTA + cPHG + cCONVERGENCIA + cVICTORIA +cCREO+cPPT+cEG+cTODOS+cFCN+cVIVA+cUNE+cSEMILLA+cVAMOS+cFUERZA+cBIEN+cLIBRE+cPC)>0.05,cUCN*2,0)}
+Porcentaje: {cUCN/ (cUCN +  cUNIONISTA + cPHG + cCONVERGENCIA + cVICTORIA +cCREO+cPPT+cEG+cTODOS+cFCN+cVIVA+cUNE+cSEMILLA+cVAMOS+cFUERZA+cBIEN+cLIBRE+cPC) }
+-----UNIONISTA---------------------------------------------
+FI: {Math.If(cUNIONISTA/ (cUCN +  cUNIONISTA + cPHG + cCONVERGENCIA + cVICTORIA +cCREO+cPPT+cEG+cTODOS+cFCN+cVIVA+cUNE+cSEMILLA+cVAMOS+cFUERZA+cBIEN+cLIBRE+cPC)>0.05,cUNIONISTA*2,0)}
+Porcentaje: {cUNIONISTA/ (cUCN +  cUNIONISTA + cPHG + cCONVERGENCIA + cVICTORIA +cCREO+cPPT+cEG+cTODOS+cFCN+cVIVA+cUNE+cSEMILLA+cVAMOS+cFUERZA+cBIEN+cLIBRE+cPC) }
+-----PHG---------------------------------------------
+FI: {Math.If(cPHG/ (cUCN +  cUNIONISTA + cPHG + cCONVERGENCIA + cVICTORIA +cCREO+cPPT+cEG+cTODOS+cFCN+cVIVA+cUNE+cSEMILLA+cVAMOS+cFUERZA+cBIEN+cLIBRE+cPC)>0.05,cPHG*2,0)}
+Porcentaje: {cPHG/ (cUCN +  cUNIONISTA + cPHG + cCONVERGENCIA + cVICTORIA +cCREO+cPPT+cEG+cTODOS+cFCN+cVIVA+cUNE+cSEMILLA+cVAMOS+cFUERZA+cBIEN+cLIBRE+cPC)}
+-----CONVERGENCIA---------------------------------------------
+FI: {Math.If(cCONVERGENCIA/ (cUCN +  cUNIONISTA + cPHG + cCONVERGENCIA + cVICTORIA +cCREO+cPPT+cEG+cTODOS+cFCN+cVIVA+cUNE+cSEMILLA+cVAMOS+cFUERZA+cBIEN+cLIBRE+cPC)>0.05,cCONVERGENCIA*2,0)}
+Porcentaje: {cCONVERGENCIA/ (cUCN +  cUNIONISTA + cPHG + cCONVERGENCIA + cVICTORIA +cCREO+cPPT+cEG+cTODOS+cFCN+cVIVA+cUNE+cSEMILLA+cVAMOS+cFUERZA+cBIEN+cLIBRE+cPC) }
+-----VICTORIA---------------------------------------------
+FI: {Math.If(cVICTORIA/ (cUCN +  cUNIONISTA + cPHG + cCONVERGENCIA + cVICTORIA +cCREO+cPPT+cEG+cTODOS+cFCN+cVIVA+cUNE+cSEMILLA+cVAMOS+cFUERZA+cBIEN+cLIBRE+cPC)>0.05,cVICTORIA*2,0)}
+Porcentaje: {cVICTORIA/ (cUCN +  cUNIONISTA + cPHG + cCONVERGENCIA + cVICTORIA +cCREO+cPPT+cEG+cTODOS+cFCN+cVIVA+cUNE+cSEMILLA+cVAMOS+cFUERZA+cBIEN+cLIBRE+cPC) }
+-----CREO---------------------------------------------
+FI: {Math.If(cCREO/ (cUCN +  cUNIONISTA + cPHG + cCONVERGENCIA + cVICTORIA +cCREO+cPPT+cEG+cTODOS+cFCN+cVIVA+cUNE+cSEMILLA+cVAMOS+cFUERZA+cBIEN+cLIBRE+cPC)>0.05,cCREO*2,0)}
+Porcentaje: {cCREO/ (cUCN +  cUNIONISTA + cPHG + cCONVERGENCIA + cVICTORIA +cCREO+cPPT+cEG+cTODOS+cFCN+cVIVA+cUNE+cSEMILLA+cVAMOS+cFUERZA+cBIEN+cLIBRE+cPC) }
+-----PPT---------------------------------------------
+FI: {Math.If(cPPT/ (cUCN +  cUNIONISTA + cPHG + cCONVERGENCIA + cVICTORIA +cCREO+cPPT+cEG+cTODOS+cFCN+cVIVA+cUNE+cSEMILLA+cVAMOS+cFUERZA+cBIEN+cLIBRE+cPC)>0.05,cPPT*2,0)}
+Porcentaje: {cPPT/ (cUCN +  cUNIONISTA + cPHG + cCONVERGENCIA + cVICTORIA +cCREO+cPPT+cEG+cTODOS+cFCN+cVIVA+cUNE+cSEMILLA+cVAMOS+cFUERZA+cBIEN+cLIBRE+cPC)}
+-----EG---------------------------------------------
+FI: {Math.If(cEG/ (cUCN +  cUNIONISTA + cPHG + cCONVERGENCIA + cVICTORIA +cCREO+cPPT+cEG+cTODOS+cFCN+cVIVA+cUNE+cSEMILLA+cVAMOS+cFUERZA+cBIEN+cLIBRE+cPC)>0.05,cEG*2,0)}
+Porcentaje: {cEG/ (cUCN +  cUNIONISTA + cPHG + cCONVERGENCIA + cVICTORIA +cCREO+cPPT+cEG+cTODOS+cFCN+cVIVA+cUNE+cSEMILLA+cVAMOS+cFUERZA+cBIEN+cLIBRE+cPC)}
+-----TODOS---------------------------------------------
+FI: {Math.If(cTODOS/ (cUCN +  cUNIONISTA + cPHG + cCONVERGENCIA + cVICTORIA +cCREO+cPPT+cEG+cTODOS+cFCN+cVIVA+cUNE+cSEMILLA+cVAMOS+cFUERZA+cBIEN+cLIBRE+cPC)>0.05,cTODOS*2,0)}
+Porcentaje: {cTODOS/ (cUCN +  cUNIONISTA + cPHG + cCONVERGENCIA + cVICTORIA +cCREO+cPPT+cEG+cTODOS+cFCN+cVIVA+cUNE+cSEMILLA+cVAMOS+cFUERZA+cBIEN+cLIBRE+cPC)}
+-----FCN---------------------------------------------
+FI: {Math.If(cFCN/ (cUCN +  cUNIONISTA + cPHG + cCONVERGENCIA + cVICTORIA +cCREO+cPPT+cEG+cTODOS+cFCN+cVIVA+cUNE+cSEMILLA+cVAMOS+cFUERZA+cBIEN+cLIBRE+cPC)>0.05,cFCN*2,0)}
+Porcentaje: {cFCN/ (cUCN +  cUNIONISTA + cPHG + cCONVERGENCIA + cVICTORIA +cCREO+cPPT+cEG+cTODOS+cFCN+cVIVA+cUNE+cSEMILLA+cVAMOS+cFUERZA+cBIEN+cLIBRE+cPC)}
+-----VIVA---------------------------------------------
+FI: {Math.If(cVIVA/ (cUCN +  cUNIONISTA + cPHG + cCONVERGENCIA + cVICTORIA +cCREO+cPPT+cEG+cTODOS+cFCN+cVIVA+cUNE+cSEMILLA+cVAMOS+cFUERZA+cBIEN+cLIBRE+cPC)>0.05,cVIVA*2,0)}
+Porcentaje: {cVIVA/ (cUCN +  cUNIONISTA + cPHG + cCONVERGENCIA + cVICTORIA +cCREO+cPPT+cEG+cTODOS+cFCN+cVIVA+cUNE+cSEMILLA+cVAMOS+cFUERZA+cBIEN+cLIBRE+cPC)}
+-----UNE---------------------------------------------
+FI: {Math.If(cUNE/ (cUCN +  cUNIONISTA + cPHG + cCONVERGENCIA + cVICTORIA +cCREO+cPPT+cEG+cTODOS+cFCN+cVIVA+cUNE+cSEMILLA+cVAMOS+cFUERZA+cBIEN+cLIBRE+cPC)>0.05,cUNE*2,0)}
+Porcentaje: {cUNE/ (cUCN +  cUNIONISTA + cPHG + cCONVERGENCIA + cVICTORIA +cCREO+cPPT+cEG+cTODOS+cFCN+cVIVA+cUNE+cSEMILLA+cVAMOS+cFUERZA+cBIEN+cLIBRE+cPC)}
+-----SEMILLA---------------------------------------------
+FI: {Math.If(cSEMILLA/ (cUCN +  cUNIONISTA + cPHG + cCONVERGENCIA + cVICTORIA +cCREO+cPPT+cEG+cTODOS+cFCN+cVIVA+cUNE+cSEMILLA+cVAMOS+cFUERZA+cBIEN+cLIBRE+cPC)>0.05,cSEMILLA*2,0)}
+Porcentaje: {cSEMILLA/ (cUCN +  cUNIONISTA + cPHG + cCONVERGENCIA + cVICTORIA +cCREO+cPPT+cEG+cTODOS+cFCN+cVIVA+cUNE+cSEMILLA+cVAMOS+cFUERZA+cBIEN+cLIBRE+cPC)}
+-----VAMOS---------------------------------------------
+FI: {Math.If(cVAMOS/ (cUCN +  cUNIONISTA + cPHG + cCONVERGENCIA + cVICTORIA +cCREO+cPPT+cEG+cTODOS+cFCN+cVIVA+cUNE+cSEMILLA+cVAMOS+cFUERZA+cBIEN+cLIBRE+cPC)>0.05,cVAMOS*2,0)}
+Porcentaje: {cVAMOS/ (cUCN +  cUNIONISTA + cPHG + cCONVERGENCIA + cVICTORIA +cCREO+cPPT+cEG+cTODOS+cFCN+cVIVA+cUNE+cSEMILLA+cVAMOS+cFUERZA+cBIEN+cLIBRE+cPC)}
+-----FUERZA---------------------------------------------
+FI: {Math.If(cFUERZA/ (cUCN +  cUNIONISTA + cPHG + cCONVERGENCIA + cVICTORIA +cCREO+cPPT+cEG+cTODOS+cFCN+cVIVA+cUNE+cSEMILLA+cVAMOS+cFUERZA+cBIEN+cLIBRE+cPC)>0.05,cFUERZA*2,0)}
+Porcentaje: {cFUERZA/ (cUCN +  cUNIONISTA + cPHG + cCONVERGENCIA + cVICTORIA +cCREO+cPPT+cEG+cTODOS+cFCN+cVIVA+cUNE+cSEMILLA+cVAMOS+cFUERZA+cBIEN+cLIBRE+cPC)}
+-----BIEN---------------------------------------------
+FI: {Math.If(cBIEN/ (cUCN +  cUNIONISTA + cPHG + cCONVERGENCIA + cVICTORIA +cCREO+cPPT+cEG+cTODOS+cFCN+cVIVA+cUNE+cSEMILLA+cVAMOS+cFUERZA+cBIEN+cLIBRE+cPC)>0.05,cBIEN*2,0)}
+Porcentaje: {cBIEN/ (cUCN +  cUNIONISTA + cPHG + cCONVERGENCIA + cVICTORIA +cCREO+cPPT+cEG+cTODOS+cFCN+cVIVA+cUNE+cSEMILLA+cVAMOS+cFUERZA+cBIEN+cLIBRE+cPC)}
+-----LIBRE---------------------------------------------
+FI: {Math.If(cLIBRE/ (cUCN +  cUNIONISTA + cPHG + cCONVERGENCIA + cVICTORIA +cCREO+cPPT+cEG+cTODOS+cFCN+cVIVA+cUNE+cSEMILLA+cVAMOS+cFUERZA+cBIEN+cLIBRE+cPC)>0.05,cLIBRE*2,0)}
+Porcentaje: {cLIBRE/ (cUCN +  cUNIONISTA + cPHG + cCONVERGENCIA + cVICTORIA +cCREO+cPPT+cEG+cTODOS+cFCN+cVIVA+cUNE+cSEMILLA+cVAMOS+cFUERZA+cBIEN+cLIBRE+cPC)}
+-----PC---------------------------------------------
+FI: {Math.If(cPC/ (cUCN +  cUNIONISTA + cPHG + cCONVERGENCIA + cVICTORIA +cCREO+cPPT+cEG+cTODOS+cFCN+cVIVA+cUNE+cSEMILLA+cVAMOS+cFUERZA+cBIEN+cLIBRE+cPC)>0.05,cPC*2,0)}
+Porcentaje: {cPC/ (cUCN +  cUNIONISTA + cPHG + cCONVERGENCIA + cVICTORIA +cCREO+cPPT+cEG+cTODOS+cFCN+cVIVA+cUNE+cSEMILLA+cVAMOS+cFUERZA+cBIEN+cLIBRE+cPC)}
+
+
+Diputados parlamentos
+-----LIBRE---------------------------------------
+Finaciamiento:{Math.If(dParLIBRE/ (dParLIBRE+dParUNIONISTA+dParVAMOS+dParFUERZA+dParTODOS+dParVALOR+dParFCN+dParUCN+dParEG+dParWINAQ+dParSEMILLA+dParCREO+dParUNE+dParPAN+dParUNIDOS+dParURNG+dParVICTORIA+dParVIVA+dParPODEMOS+dParBIEN+dParCONVERGENCIA+dParPC+dParAVANZA)>0.05,dParLIBRE*2,0)}
+Porcentaje: {dParLIBRE/ (dParLIBRE+dParUNIONISTA+dParVAMOS+dParFUERZA+dParTODOS+dParVALOR+dParFCN+dParUCN+dParEG+dParWINAQ+dParSEMILLA+dParCREO+dParUNE+dParPAN+dParUNIDOS+dParURNG+dParVICTORIA+dParVIVA+dParPODEMOS+dParBIEN+dParCONVERGENCIA+dParPC+dParAVANZA)}
+-----dParUNIONISTA---------------------------------------
+Finaciamiento:{Math.If(dParUNIONISTA/ (dParLIBRE+dParUNIONISTA+dParVAMOS+dParFUERZA+dParTODOS+dParVALOR+dParFCN+dParUCN+dParEG+dParWINAQ+dParSEMILLA+dParCREO+dParUNE+dParPAN+dParUNIDOS+dParURNG+dParVICTORIA+dParVIVA+dParPODEMOS+dParBIEN+dParCONVERGENCIA+dParPC+dParAVANZA)>0.05,dParUNIONISTA*2,0)}
+Porcentaje: {dParUNIONISTA/ (dParLIBRE+dParUNIONISTA+dParVAMOS+dParFUERZA+dParTODOS+dParVALOR+dParFCN+dParUCN+dParEG+dParWINAQ+dParSEMILLA+dParCREO+dParUNE+dParPAN+dParUNIDOS+dParURNG+dParVICTORIA+dParVIVA+dParPODEMOS+dParBIEN+dParCONVERGENCIA+dParPC+dParAVANZA)}
+-----VAMOS---------------------------------------
+Finaciamiento:{Math.If(dParVAMOS/ (dParLIBRE+dParUNIONISTA+dParVAMOS+dParFUERZA+dParTODOS+dParVALOR+dParFCN+dParUCN+dParEG+dParWINAQ+dParSEMILLA+dParCREO+dParUNE+dParPAN+dParUNIDOS+dParURNG+dParVICTORIA+dParVIVA+dParPODEMOS+dParBIEN+dParCONVERGENCIA+dParPC+dParAVANZA)>0.05,dParVAMOS*2,0)}
+Porcentaje: {dParVAMOS/ (dParLIBRE+dParUNIONISTA+dParVAMOS+dParFUERZA+dParTODOS+dParVALOR+dParFCN+dParUCN+dParEG+dParWINAQ+dParSEMILLA+dParCREO+dParUNE+dParPAN+dParUNIDOS+dParURNG+dParVICTORIA+dParVIVA+dParPODEMOS+dParBIEN+dParCONVERGENCIA+dParPC+dParAVANZA)}
+-----FUERZA---------------------------------------
+Finaciamiento:{Math.If(dParFUERZA/ (dParLIBRE+dParUNIONISTA+dParVAMOS+dParFUERZA+dParTODOS+dParVALOR+dParFCN+dParUCN+dParEG+dParWINAQ+dParSEMILLA+dParCREO+dParUNE+dParPAN+dParUNIDOS+dParURNG+dParVICTORIA+dParVIVA+dParPODEMOS+dParBIEN+dParCONVERGENCIA+dParPC+dParAVANZA)>0.05,dParFUERZA*2,0)}
+Porcentaje: {dParFUERZA/ (dParLIBRE+dParUNIONISTA+dParVAMOS+dParFUERZA+dParTODOS+dParVALOR+dParFCN+dParUCN+dParEG+dParWINAQ+dParSEMILLA+dParCREO+dParUNE+dParPAN+dParUNIDOS+dParURNG+dParVICTORIA+dParVIVA+dParPODEMOS+dParBIEN+dParCONVERGENCIA+dParPC+dParAVANZA)}
+-----TODOS---------------------------------------
+Finaciamiento:{Math.If(dParTODOS/ (dParLIBRE+dParUNIONISTA+dParVAMOS+dParFUERZA+dParTODOS+dParVALOR+dParFCN+dParUCN+dParEG+dParWINAQ+dParSEMILLA+dParCREO+dParUNE+dParPAN+dParUNIDOS+dParURNG+dParVICTORIA+dParVIVA+dParPODEMOS+dParBIEN+dParCONVERGENCIA+dParPC+dParAVANZA)>0.05,dParTODOS*2,0)}
+Porcentaje: {dParTODOS/ (dParLIBRE+dParUNIONISTA+dParVAMOS+dParFUERZA+dParTODOS+dParVALOR+dParFCN+dParUCN+dParEG+dParWINAQ+dParSEMILLA+dParCREO+dParUNE+dParPAN+dParUNIDOS+dParURNG+dParVICTORIA+dParVIVA+dParPODEMOS+dParBIEN+dParCONVERGENCIA+dParPC+dParAVANZA)}
+-----VALOR---------------------------------------
+Finaciamiento:{Math.If(dParVALOR/ (dParLIBRE+dParUNIONISTA+dParVAMOS+dParFUERZA+dParTODOS+dParVALOR+dParFCN+dParUCN+dParEG+dParWINAQ+dParSEMILLA+dParCREO+dParUNE+dParPAN+dParUNIDOS+dParURNG+dParVICTORIA+dParVIVA+dParPODEMOS+dParBIEN+dParCONVERGENCIA+dParPC+dParAVANZA)>0.05,dParVALOR*2,0)}
+Porcentaje: {dParVALOR/ (dParLIBRE+dParUNIONISTA+dParVAMOS+dParFUERZA+dParTODOS+dParVALOR+dParFCN+dParUCN+dParEG+dParWINAQ+dParSEMILLA+dParCREO+dParUNE+dParPAN+dParUNIDOS+dParURNG+dParVICTORIA+dParVIVA+dParPODEMOS+dParBIEN+dParCONVERGENCIA+dParPC+dParAVANZA)}
+-----FCN---------------------------------------
+Finaciamiento:{Math.If(dParFCN/ (dParLIBRE+dParUNIONISTA+dParVAMOS+dParFUERZA+dParTODOS+dParVALOR+dParFCN+dParUCN+dParEG+dParWINAQ+dParSEMILLA+dParCREO+dParUNE+dParPAN+dParUNIDOS+dParURNG+dParVICTORIA+dParVIVA+dParPODEMOS+dParBIEN+dParCONVERGENCIA+dParPC+dParAVANZA)>0.05,dParFCN*2,0)}
+Porcentaje: {dParFCN/ (dParLIBRE+dParUNIONISTA+dParVAMOS+dParFUERZA+dParTODOS+dParVALOR+dParFCN+dParUCN+dParEG+dParWINAQ+dParSEMILLA+dParCREO+dParUNE+dParPAN+dParUNIDOS+dParURNG+dParVICTORIA+dParVIVA+dParPODEMOS+dParBIEN+dParCONVERGENCIA+dParPC+dParAVANZA)}
+-----UCN---------------------------------------
+Finaciamiento:{Math.If(dParUCN/ (dParLIBRE+dParUNIONISTA+dParVAMOS+dParFUERZA+dParTODOS+dParVALOR+dParFCN+dParUCN+dParEG+dParWINAQ+dParSEMILLA+dParCREO+dParUNE+dParPAN+dParUNIDOS+dParURNG+dParVICTORIA+dParVIVA+dParPODEMOS+dParBIEN+dParCONVERGENCIA+dParPC+dParAVANZA)>0.05,dParUCN*2,0)}
+Porcentaje: {dParUCN/ (dParLIBRE+dParUNIONISTA+dParVAMOS+dParFUERZA+dParTODOS+dParVALOR+dParFCN+dParUCN+dParEG+dParWINAQ+dParSEMILLA+dParCREO+dParUNE+dParPAN+dParUNIDOS+dParURNG+dParVICTORIA+dParVIVA+dParPODEMOS+dParBIEN+dParCONVERGENCIA+dParPC+dParAVANZA)}
+-----EG---------------------------------------
+Finaciamiento:{Math.If(dParEG/ (dParLIBRE+dParUNIONISTA+dParVAMOS+dParFUERZA+dParTODOS+dParVALOR+dParFCN+dParUCN+dParEG+dParWINAQ+dParSEMILLA+dParCREO+dParUNE+dParPAN+dParUNIDOS+dParURNG+dParVICTORIA+dParVIVA+dParPODEMOS+dParBIEN+dParCONVERGENCIA+dParPC+dParAVANZA)>0.05,dParEG*2,0)}
+Porcentaje: {dParEG/ (dParLIBRE+dParUNIONISTA+dParVAMOS+dParFUERZA+dParTODOS+dParVALOR+dParFCN+dParUCN+dParEG+dParWINAQ+dParSEMILLA+dParCREO+dParUNE+dParPAN+dParUNIDOS+dParURNG+dParVICTORIA+dParVIVA+dParPODEMOS+dParBIEN+dParCONVERGENCIA+dParPC+dParAVANZA)}
+-----WINAQ---------------------------------------
+Finaciamiento:{Math.If(dParWINAQ/ (dParLIBRE+dParUNIONISTA+dParVAMOS+dParFUERZA+dParTODOS+dParVALOR+dParFCN+dParUCN+dParEG+dParWINAQ+dParSEMILLA+dParCREO+dParUNE+dParPAN+dParUNIDOS+dParURNG+dParVICTORIA+dParVIVA+dParPODEMOS+dParBIEN+dParCONVERGENCIA+dParPC+dParAVANZA)>0.05,dParWINAQ*2,0)}
+Porcentaje: {dParWINAQ/ (dParLIBRE+dParUNIONISTA+dParVAMOS+dParFUERZA+dParTODOS+dParVALOR+dParFCN+dParUCN+dParEG+dParWINAQ+dParSEMILLA+dParCREO+dParUNE+dParPAN+dParUNIDOS+dParURNG+dParVICTORIA+dParVIVA+dParPODEMOS+dParBIEN+dParCONVERGENCIA+dParPC+dParAVANZA)}
+-----SEMILLA---------------------------------------
+Finaciamiento:{Math.If(dParSEMILLA/ (dParLIBRE+dParUNIONISTA+dParVAMOS+dParFUERZA+dParTODOS+dParVALOR+dParFCN+dParUCN+dParEG+dParWINAQ+dParSEMILLA+dParCREO+dParUNE+dParPAN+dParUNIDOS+dParURNG+dParVICTORIA+dParVIVA+dParPODEMOS+dParBIEN+dParCONVERGENCIA+dParPC+dParAVANZA)>0.05,dParSEMILLA*2,0)}
+Porcentaje: {dParSEMILLA/ (dParLIBRE+dParUNIONISTA+dParVAMOS+dParFUERZA+dParTODOS+dParVALOR+dParFCN+dParUCN+dParEG+dParWINAQ+dParSEMILLA+dParCREO+dParUNE+dParPAN+dParUNIDOS+dParURNG+dParVICTORIA+dParVIVA+dParPODEMOS+dParBIEN+dParCONVERGENCIA+dParPC+dParAVANZA)}
+-----CREO---------------------------------------
+Finaciamiento:{Math.If(dParCREO/ (dParLIBRE+dParUNIONISTA+dParVAMOS+dParFUERZA+dParTODOS+dParVALOR+dParFCN+dParUCN+dParEG+dParWINAQ+dParSEMILLA+dParCREO+dParUNE+dParPAN+dParUNIDOS+dParURNG+dParVICTORIA+dParVIVA+dParPODEMOS+dParBIEN+dParCONVERGENCIA+dParPC+dParAVANZA)>0.05,dParCREO*2,0)}
+Porcentaje: {dParCREO/ (dParLIBRE+dParUNIONISTA+dParVAMOS+dParFUERZA+dParTODOS+dParVALOR+dParFCN+dParUCN+dParEG+dParWINAQ+dParSEMILLA+dParCREO+dParUNE+dParPAN+dParUNIDOS+dParURNG+dParVICTORIA+dParVIVA+dParPODEMOS+dParBIEN+dParCONVERGENCIA+dParPC+dParAVANZA)}
+-----UNE---------------------------------------
+Finaciamiento:{Math.If(dParUNE/ (dParLIBRE+dParUNIONISTA+dParVAMOS+dParFUERZA+dParTODOS+dParVALOR+dParFCN+dParUCN+dParEG+dParWINAQ+dParSEMILLA+dParCREO+dParUNE+dParPAN+dParUNIDOS+dParURNG+dParVICTORIA+dParVIVA+dParPODEMOS+dParBIEN+dParCONVERGENCIA+dParPC+dParAVANZA)>0.05,dParUNE*2,0)}
+Porcentaje: {dParUNE/ (dParLIBRE+dParUNIONISTA+dParVAMOS+dParFUERZA+dParTODOS+dParVALOR+dParFCN+dParUCN+dParEG+dParWINAQ+dParSEMILLA+dParCREO+dParUNE+dParPAN+dParUNIDOS+dParURNG+dParVICTORIA+dParVIVA+dParPODEMOS+dParBIEN+dParCONVERGENCIA+dParPC+dParAVANZA)}
+-----PAN---------------------------------------
+Finaciamiento:{Math.If(dParPAN/ (dParLIBRE+dParUNIONISTA+dParVAMOS+dParFUERZA+dParTODOS+dParVALOR+dParFCN+dParUCN+dParEG+dParWINAQ+dParSEMILLA+dParCREO+dParUNE+dParPAN+dParUNIDOS+dParURNG+dParVICTORIA+dParVIVA+dParPODEMOS+dParBIEN+dParCONVERGENCIA+dParPC+dParAVANZA)>0.05,dParPAN*2,0)}
+Porcentaje: {dParPAN/ (dParLIBRE+dParUNIONISTA+dParVAMOS+dParFUERZA+dParTODOS+dParVALOR+dParFCN+dParUCN+dParEG+dParWINAQ+dParSEMILLA+dParCREO+dParUNE+dParPAN+dParUNIDOS+dParURNG+dParVICTORIA+dParVIVA+dParPODEMOS+dParBIEN+dParCONVERGENCIA+dParPC+dParAVANZA)}
+-----UNIDOS---------------------------------------
+Finaciamiento:{Math.If(dParUNIDOS/ (dParLIBRE+dParUNIONISTA+dParVAMOS+dParFUERZA+dParTODOS+dParVALOR+dParFCN+dParUCN+dParEG+dParWINAQ+dParSEMILLA+dParCREO+dParUNE+dParPAN+dParUNIDOS+dParURNG+dParVICTORIA+dParVIVA+dParPODEMOS+dParBIEN+dParCONVERGENCIA+dParPC+dParAVANZA)>0.05,dParUNIDOS*2,0)}
+Porcentaje: {dParUNIDOS/ (dParLIBRE+dParUNIONISTA+dParVAMOS+dParFUERZA+dParTODOS+dParVALOR+dParFCN+dParUCN+dParEG+dParWINAQ+dParSEMILLA+dParCREO+dParUNE+dParPAN+dParUNIDOS+dParURNG+dParVICTORIA+dParVIVA+dParPODEMOS+dParBIEN+dParCONVERGENCIA+dParPC+dParAVANZA)}
+-----URNG---------------------------------------
+Finaciamiento:{Math.If(dParURNG/ (dParLIBRE+dParUNIONISTA+dParVAMOS+dParFUERZA+dParTODOS+dParVALOR+dParFCN+dParUCN+dParEG+dParWINAQ+dParSEMILLA+dParCREO+dParUNE+dParPAN+dParUNIDOS+dParURNG+dParVICTORIA+dParVIVA+dParPODEMOS+dParBIEN+dParCONVERGENCIA+dParPC+dParAVANZA)>0.05,dParURNG*2,0)}
+Porcentaje: {dParURNG/ (dParLIBRE+dParUNIONISTA+dParVAMOS+dParFUERZA+dParTODOS+dParVALOR+dParFCN+dParUCN+dParEG+dParWINAQ+dParSEMILLA+dParCREO+dParUNE+dParPAN+dParUNIDOS+dParURNG+dParVICTORIA+dParVIVA+dParPODEMOS+dParBIEN+dParCONVERGENCIA+dParPC+dParAVANZA)}
+-----VICTORIA---------------------------------------
+Finaciamiento:{Math.If(dParVICTORIA/ (dParLIBRE+dParUNIONISTA+dParVAMOS+dParFUERZA+dParTODOS+dParVALOR+dParFCN+dParUCN+dParEG+dParWINAQ+dParSEMILLA+dParCREO+dParUNE+dParPAN+dParUNIDOS+dParURNG+dParVICTORIA+dParVIVA+dParPODEMOS+dParBIEN+dParCONVERGENCIA+dParPC+dParAVANZA)>0.05,dParVICTORIA*2,0)}
+Porcentaje: {dParVICTORIA/ (dParLIBRE+dParUNIONISTA+dParVAMOS+dParFUERZA+dParTODOS+dParVALOR+dParFCN+dParUCN+dParEG+dParWINAQ+dParSEMILLA+dParCREO+dParUNE+dParPAN+dParUNIDOS+dParURNG+dParVICTORIA+dParVIVA+dParPODEMOS+dParBIEN+dParCONVERGENCIA+dParPC+dParAVANZA)}
+-----VIVA---------------------------------------
+Finaciamiento:{Math.If(dParVIVA/ (dParLIBRE+dParUNIONISTA+dParVAMOS+dParFUERZA+dParTODOS+dParVALOR+dParFCN+dParUCN+dParEG+dParWINAQ+dParSEMILLA+dParCREO+dParUNE+dParPAN+dParUNIDOS+dParURNG+dParVICTORIA+dParVIVA+dParPODEMOS+dParBIEN+dParCONVERGENCIA+dParPC+dParAVANZA)>0.05,dParVIVA*2,0)}
+Porcentaje: {dParVIVA/ (dParLIBRE+dParUNIONISTA+dParVAMOS+dParFUERZA+dParTODOS+dParVALOR+dParFCN+dParUCN+dParEG+dParWINAQ+dParSEMILLA+dParCREO+dParUNE+dParPAN+dParUNIDOS+dParURNG+dParVICTORIA+dParVIVA+dParPODEMOS+dParBIEN+dParCONVERGENCIA+dParPC+dParAVANZA)}
+-----PODEMOS---------------------------------------
+Finaciamiento:{Math.If(dParPODEMOS/ (dParLIBRE+dParUNIONISTA+dParVAMOS+dParFUERZA+dParTODOS+dParVALOR+dParFCN+dParUCN+dParEG+dParWINAQ+dParSEMILLA+dParCREO+dParUNE+dParPAN+dParUNIDOS+dParURNG+dParVICTORIA+dParVIVA+dParPODEMOS+dParBIEN+dParCONVERGENCIA+dParPC+dParAVANZA)>0.05,dParPODEMOS*2,0)}
+Porcentaje: {dParPODEMOS/ (dParLIBRE+dParUNIONISTA+dParVAMOS+dParFUERZA+dParTODOS+dParVALOR+dParFCN+dParUCN+dParEG+dParWINAQ+dParSEMILLA+dParCREO+dParUNE+dParPAN+dParUNIDOS+dParURNG+dParVICTORIA+dParVIVA+dParPODEMOS+dParBIEN+dParCONVERGENCIA+dParPC+dParAVANZA)}
+-----BIEN---------------------------------------
+Finaciamiento:{Math.If(dParBIEN/ (dParLIBRE+dParUNIONISTA+dParVAMOS+dParFUERZA+dParTODOS+dParVALOR+dParFCN+dParUCN+dParEG+dParWINAQ+dParSEMILLA+dParCREO+dParUNE+dParPAN+dParUNIDOS+dParURNG+dParVICTORIA+dParVIVA+dParPODEMOS+dParBIEN+dParCONVERGENCIA+dParPC+dParAVANZA)>0.05,dParBIEN*2,0)}
+Porcentaje: {dParBIEN/ (dParLIBRE+dParUNIONISTA+dParVAMOS+dParFUERZA+dParTODOS+dParVALOR+dParFCN+dParUCN+dParEG+dParWINAQ+dParSEMILLA+dParCREO+dParUNE+dParPAN+dParUNIDOS+dParURNG+dParVICTORIA+dParVIVA+dParPODEMOS+dParBIEN+dParCONVERGENCIA+dParPC+dParAVANZA)}
+-----LIBRE---------------------------------------
+Finaciamiento:{Math.If(dParLIBRE/ (dParLIBRE+dParUNIONISTA+dParVAMOS+dParFUERZA+dParTODOS+dParVALOR+dParFCN+dParUCN+dParEG+dParWINAQ+dParSEMILLA+dParCREO+dParUNE+dParPAN+dParUNIDOS+dParURNG+dParVICTORIA+dParVIVA+dParPODEMOS+dParBIEN+dParCONVERGENCIA+dParPC+dParAVANZA)>0.05,dParLIBRE*2,0)}
+Porcentaje: {dParLIBRE/ (dParLIBRE+dParUNIONISTA+dParVAMOS+dParFUERZA+dParTODOS+dParVALOR+dParFCN+dParUCN+dParEG+dParWINAQ+dParSEMILLA+dParCREO+dParUNE+dParPAN+dParUNIDOS+dParURNG+dParVICTORIA+dParVIVA+dParPODEMOS+dParBIEN+dParCONVERGENCIA+dParPC+dParAVANZA)}
+-----CONVERGENCIA---------------------------------------
+Finaciamiento:{Math.If(dParCONVERGENCIA/ (dParLIBRE+dParUNIONISTA+dParVAMOS+dParFUERZA+dParTODOS+dParVALOR+dParFCN+dParUCN+dParEG+dParWINAQ+dParSEMILLA+dParCREO+dParUNE+dParPAN+dParUNIDOS+dParURNG+dParVICTORIA+dParVIVA+dParPODEMOS+dParBIEN+dParCONVERGENCIA+dParPC+dParAVANZA)>0.05,dParCONVERGENCIA*2,0)}
+Porcentaje: {dParCONVERGENCIA/ (dParLIBRE+dParUNIONISTA+dParVAMOS+dParFUERZA+dParTODOS+dParVALOR+dParFCN+dParUCN+dParEG+dParWINAQ+dParSEMILLA+dParCREO+dParUNE+dParPAN+dParUNIDOS+dParURNG+dParVICTORIA+dParVIVA+dParPODEMOS+dParBIEN+dParCONVERGENCIA+dParPC+dParAVANZA)}
+-----PC---------------------------------------
+Finaciamiento:{Math.If(dParPC/ (dParLIBRE+dParUNIONISTA+dParVAMOS+dParFUERZA+dParTODOS+dParVALOR+dParFCN+dParUCN+dParEG+dParWINAQ+dParSEMILLA+dParCREO+dParUNE+dParPAN+dParUNIDOS+dParURNG+dParVICTORIA+dParVIVA+dParPODEMOS+dParBIEN+dParCONVERGENCIA+dParPC+dParAVANZA)>0.05,dParPC*2,0)}
+Porcentaje: {dParPC/ (dParLIBRE+dParUNIONISTA+dParVAMOS+dParFUERZA+dParTODOS+dParVALOR+dParFCN+dParUCN+dParEG+dParWINAQ+dParSEMILLA+dParCREO+dParUNE+dParPAN+dParUNIDOS+dParURNG+dParVICTORIA+dParVIVA+dParPODEMOS+dParBIEN+dParCONVERGENCIA+dParPC+dParAVANZA)}
+-----AVANZA---------------------------------------
+Finaciamiento:{Math.If(dParAVANZA/ (dParLIBRE+dParUNIONISTA+dParVAMOS+dParFUERZA+dParTODOS+dParVALOR+dParFCN+dParUCN+dParEG+dParWINAQ+dParSEMILLA+dParCREO+dParUNE+dParPAN+dParUNIDOS+dParURNG+dParVICTORIA+dParVIVA+dParPODEMOS+dParBIEN+dParCONVERGENCIA+dParPC+dParAVANZA)>0.05,dParAVANZA*2,0)}
+Porcentaje: {dParAVANZA/ (dParLIBRE+dParUNIONISTA+dParVAMOS+dParFUERZA+dParTODOS+dParVALOR+dParFCN+dParUCN+dParEG+dParWINAQ+dParSEMILLA+dParCREO+dParUNE+dParPAN+dParUNIDOS+dParURNG+dParVICTORIA+dParVIVA+dParPODEMOS+dParBIEN+dParCONVERGENCIA+dParPC+dParAVANZA)}
+
